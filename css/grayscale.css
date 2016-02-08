@@ -34,6 +34,10 @@ h6 {
   color: rgb(0, 222, 185);
 }
 
+.brand-heading {
+  text-transform: lowercase;
+}
+
 .intro-text {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
