@@ -31,7 +31,12 @@ h6 {
 }
 
 .brand-short {
-  color: rgb(0, 255, 212);
+  color: rgb(0, 222, 185);
+}
+
+.intro-text {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
 }
 
 p {
