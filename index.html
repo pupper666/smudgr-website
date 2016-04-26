@@ -125,16 +125,36 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Gallery</h2>
-                    <p><div class="galleria">
-    <img src="img/gallery/flowers2.jpeg">
-    <img src="img/gallery/Nicole2.gif">
-    <img src="img/gallery/Stars2.gif">
-    <img src="img/gallery/StarsSorted2.gif">
-    <script>
+                    <p><div class="galleria"><script>
+var data = [
+    {
+        image: 'img/gallery/flowers2.jpeg',
+        title: 'Flowers',
+        description: 'by Eric Voorhis',
+    },
+    {
+    	        image: 'img/gallery/Nicole2.gif',
+        title: 'Nicole',
+        description: 'by Sky Kistler'
+    },
+        {
+    	        image: 'img/gallery/colorShift1.jpeg',
+        title: 'ColorShift',
+        description: 'by Eric Voorhis'
+    },
+        {
+    	        image: 'img/gallery/StarsSorted2.gif',
+        title: 'Sorted Stars',
+        description: 'by Eric Voorhis'
+    }
+];
     Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-       Galleria.run('.galleria');
-</script>
-</div><br/><br/>More coming soon. In the meantime, you can check out what other smudgers have been doing on <a href="http://facebook.com/fresh.smudge/">Freshly Smudged</a>.</p>
+       Galleria.run('.galleria', {
+       	dataSource: data
+       	});
+       	
+</script></div>
+<br/><br/>More coming soon. <br/>In the meantime, you can check out what other smudgers have been doing on <a href="http://facebook.com/fresh.smudge/">Freshly Smudged</a>.</p>
                 </div>
             </div>
         </div>
